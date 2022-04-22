@@ -1,0 +1,150 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(241, 225, 175), rgb(178,173,128), rgb(178,173,128));
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px; 
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 18px;
+    flex-direction: column;
+    line-height: 10px; /* espaçamento entre as linhas do título*/
+}
+
+#spaece {
+    color: rgb(34, 34, 34);
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-weight: bold; /*intensidade da fonte*/
+}
+
+li {
+    display: inline-block; /* menu interativo com links um ao lado do outro*/
+    margin: 20px; /*espaçamento lateral entre os links do menu*/
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(85, 163, 96);
+    transition: 0.3s all;
+}
+
+#alfa {
+    border: 2px solid rgb(85, 163, 96);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#alfa:hover {
+    background-color: rgb(85, 163, 96);
+    color: white;
+}
+
+#quinto-ano {
+    border: 2px solid rgb(85, 163, 96);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#quinto-ano:hover {
+    background-color: rgb(85, 163, 96);
+    color: white;
+}
+
+#nono-ano {
+    border: 2px solid rgb(85, 163, 96);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#nono-ano:hover {
+    background-color: rgb(85, 163, 96);
+    color: white;
+}
+
+#ensino-medio {
+    border: 2px solid rgb(85, 163, 96);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#ensino-medio:hover {
+    background-color: rgb(85, 163, 96);
+    color: white;
+}
+
+main {
+    display: flex; /*elementos em formato de coluna*/
+    flex-direction: row; /*elementos em formato de coluna*/
+    margin-top: 50px; /*espaçamento entre elementos de cima e debaixo*/
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+#cor-subtitulo {
+    color: rgb(85, 163, 96);
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 500px; /*quebra o parágrafo no tamanho estipulado*/
+    text-align: justify;
+}
+
+img{
+    margin-top: 50px;
+}
+
+form {
+    display: flex; /*os campos ficam na mesma linha*/
+    flex-direction: column; /*os campos ficam em formato de coluna (um abaixo do outro)*/
+    width: 70%; /*largura de 70% da div que ele esta inserido*/
+}
+
+form [type="submit"]{
+    height: 50px; /*altura do botao*/
+    width: 50%; /*largura de 50% da div q esta inserido*/
+    background-color: rgb(85, 163, 96);
+    color: white;
+    font-weight: bold; /*intensidade da fonte*/
+}
+
+form [type="submit"]:hover{
+    border: 2px solid rgb(85, 163, 96);
+    background-color: white;
+    color: rgb(85, 163, 96);
+    cursor: pointer;
+}
+
+input{
+    margin-top: 15px; /*espaçamento entre os campos*/
+    height: 20px; /*altura do campo de preenchimento*/
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
